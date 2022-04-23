@@ -1,0 +1,25 @@
+|MODULE START (FILE)
+|
+|0> OR 
+|     0> AND 
+|          0> TRUE 
+|          1> TRUE 
+|     1> NOT 
+|          0> FALSE 
+|
+|0> OR 
+|     0> FALSE 
+|     1> FALSE 
+|
+|0> ASSIGN 
+|     0> f 
+|     1> FUNC_CALL 
+|          0> test 
+|               0> abc 
+|               1> TRUE 
+|               2> FALSE 
+|               3> OR 
+|                    0> TRUE 
+|                    1> FALSE 
+|
+|MODULE END

@@ -1,0 +1,3 @@
+(T && T) || !F
+F || F
+f = test(abc, T, F, T || F)
